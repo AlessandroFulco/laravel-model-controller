@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: arial, helvetica;
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .film-card {
+  min-height: 350px;
+  width: 20%;
+  padding: 0 20px;
+  background-color: #ddd;
+}
+
+.container .film-card ul {
+  list-style-type: none;
+}
+
+.container .film-card ul li {
+  margin: 13px 0;
+}
+
